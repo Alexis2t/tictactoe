@@ -67,8 +67,6 @@ function Board({xIsNext, squares, onPlay}) {
       [2, 4, 6]
     ]
 
-    console.log(squares)
-
     for (let iLine = 0; iLine < lines.length; iLine++) {
       const [a, b, c] = lines[iLine];
 
